@@ -1,9 +1,8 @@
 # $tonks
 > Nobody knows if a stock's going up, down or f***ing sideways, least of all stockbrokers. But we have to pretend we know. - Jordan Belfort
 
-![stonks.jpg][stonks.jpg]
-
 ## About this Project
+![stonks.jpg](stonks.jpg)
 This is a ~~poor~~ attempt at writing a stock trading bot from scratch.
 
 The idea behind it is to pick out stocks that are expected to make *some* return within the next few days and sell them within the window that *should* generate the most profit. Rinse and repeat to expand your capital.
