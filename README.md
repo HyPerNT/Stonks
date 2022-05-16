@@ -12,9 +12,9 @@ That being said, any APIs and libraries used to interface with brokerages will *
 In the future, I might include some way to act on those trades with a connected account for personal use, but I'm not very good at writing secure software, so use that at your own risk
 
 ### Approach
-Two pronged: Python and C, my favorite.
+Two pronged: Python and C/C++, my favorite.
 
-Python will handle most of the work I'm too lazy to implement in C. It will grab symbols and their prices and (hopefully) interface with some C code that will handle all of the analysis and calculation (for speed). Then based on what C thinks, python will act on it and throw $hitloads of more data at it.
+Python will handle most of the work I'm too lazy to implement in C/C++. It will grab symbols and their prices and (hopefully) interface with some C code that will handle all of the analysis and calculation (for speed). Then based on what C thinks, python will act on it and throw $hitloads of more data at it.
 
 Then, python will handle the portfolio tracking and "trading". I might even have some matplotlib shenanigans going on to show how your portfolio evolves over time.
 
@@ -31,7 +31,17 @@ Nothing to install (yet)
 
 ## TODO
 - [ ] Scrape current value of symbols
-- [ ] Figure out how to get Python to talk to C
+- [ ] Figure out how to get Python to talk to C/C++
 - [ ] Git gud at stonks
 - [ ] Build a UI?
 - [ ] Profit
+
+## **Disclaimer**
+I'm not very good at writing code, and my documentation skills are crap. If you actually want to use this to make money, that is
+*all* at your own risk, buddy. If you want to contribute to this project, that's kind of you, but good luck.
+I'm doubtful I'll even see this project through to the end.
+
+Oh, and I suck at using git, so my commit messages will be substantially less than helpful.
+I don't even know how to use the bug-tracking features or use pull requests.
+
+Anyway, please don't take this project seriously to any degree. It's what's best for both of us.
