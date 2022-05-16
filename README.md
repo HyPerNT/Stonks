@@ -1,6 +1,7 @@
-# Bull$hit
-> The only thing standing between you and your goal is the bulls\*\*\* story you keep telling yourself as to why you can’t achieve it. - Jordan Belfort
+# $tonks
+> Nobody knows if a stock's going up, down or f***ing sideways, least of all stockbrokers. But we have to pretend we know. - Jordan Belfort
 
+![stonks.jpg][stonks.jpg]
 
 ## About this Project
 This is a ~~poor~~ attempt at writing a stock trading bot from scratch.
